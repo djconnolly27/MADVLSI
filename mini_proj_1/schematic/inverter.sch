@@ -4,12 +4,12 @@ K {}
 V {}
 S {}
 E {}
-N 90 -140 90 -120 { lab=xxx}
-N 50 -90 60 -90 { lab=A}
-N 50 -170 50 -90 { lab=A}
-N 50 -170 60 -170 { lab=A}
-N 30 -130 50 -130 { lab=A}
-N 90 -130 110 -130 { lab=xxx}
+N 90 -140 90 -120 { lab=Y}
+N 50 -90 60 -90 { lab=Vin}
+N 50 -170 50 -90 { lab=Vin}
+N 50 -170 60 -170 { lab=Vin}
+N 30 -130 50 -130 { lab=Vin}
+N 90 -130 110 -130 { lab=Y}
 N 90 -200 90 -170 { lab=VP}
 N 90 -210 90 -200 { lab=VP}
 N 90 -90 90 -60 { lab=VN}
@@ -42,8 +42,8 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {devices/ipin.sym} 30 -130 0 0 {name=p1 lab=A
+C {devices/ipin.sym} 30 -130 0 0 {name=p1 lab=Vin
 }
 C {devices/iopin.sym} 90 -210 3 0 {name=p2 lab=VP}
 C {devices/iopin.sym} 90 -50 1 0 {name=p3 lab=VN}
-C {devices/opin.sym} 110 -130 0 0 {name=p4 lab=Y}
+C {devices/opin.sym} 110 -130 0 0 {name=p4 lab=Vout}
